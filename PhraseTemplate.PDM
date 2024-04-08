@@ -1,0 +1,87 @@
+[Root]
+Most Recent Package=PhraseTemplate Package
+
+
+[Package|PhraseTemplate Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\One1\Lims\PhraseTemplate\Package
+Controls Design-Time Support=Yes
+
+[Package|PhraseTemplate Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|PhraseTemplate Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PhraseTemplate Package|Files Found]
+
+[Package|PhraseTemplate Package|Files Released]
+
+[Package|PhraseTemplate Package|Missing Dependency Information]
+C:\Program Files\LabSystems\Nautilus\Extensions\scrrun.dll=
+
+[Package|PhraseTemplate Package|Out-of-Date Dependency Information]
+
+[Package|PhraseTemplate Package|Files Added]
+C:\WINDOWS\System32\MsStkPrp.dll=This file is needed for usercontrol design-time support.
+
+[Package|PhraseTemplate Package|Files Removed]
+
+[Package|PhraseTemplate Package|Files In Project]
+D:\One1\Lims\PhraseTemplate\PhraseTemplate.ocx=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\LabSystems\Nautilus\Extensions\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\msstkprp.dll=Yes
+
+[Package|PhraseTemplate Package|Configure Registry Files]
+Applicable=No
+
+[Package|PhraseTemplate Package|Configure Remote Servers]
+Applicable=No
+
+[Package|PhraseTemplate Package|Install Locations]
+D:\One1\Lims\PhraseTemplate\PhraseTemplate.ocx=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\LabSystems\Nautilus\Extensions\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\msstkprp.dll=$(WinSysPath)
+
+[Package|PhraseTemplate Package|Configure Shared Files]
+Applicable=Yes
+D:\One1\Lims\PhraseTemplate\PhraseTemplate.ocx=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|PhraseTemplate Package|Distribution]
+Type=single
+Size=
+Title=PhraseTemplate
+
+[Package|PhraseTemplate Package|Package]
+PackageFolder=D:\One1\Lims\PhraseTemplate\Package
+ProjectFolder=D:\One1\Lims\PhraseTemplate
+ServerSideCab=
+File1=D:\One1\Lims\PhraseTemplate\Package\setup.exe
+File2=D:\One1\Lims\PhraseTemplate\Package\Setup.Lst
+File3=D:\One1\Lims\PhraseTemplate\Package\PhraseTemplate.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
